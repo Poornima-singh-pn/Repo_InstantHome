@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Instant Home test automation suite" verbose="1" >
+    
+
+    
+  <test name=" InstantHome Regression suite " >
+    <classes>
+     
+       <class name="com.qa.ihm.tests.HomePageTest"/>
+        <class name="com.qa.ihm.tests.LoginPageTest"/>
+     
+       
+         </classes>
+ </test>
+</suite>
+
