@@ -2,7 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Instant Home test automation suite" verbose="1" >
     
+  <listeners>
 
+<listener class-name="com.qa.ihm.ExtentReportListener.ExtentReporterNG"/>
+
+</listeners>
+    
     
   <test name=" InstantHome Regression suite " >
     <classes>

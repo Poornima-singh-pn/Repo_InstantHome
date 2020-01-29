@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"> InstantHome Regression suite </td><td class="numi">7</td><td class="numi">7</td><td class="numi_attn">4</td><td class="numi">0</td><td class="numi">131.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4"> InstantHome Regression suite  &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="5">com.qa.ihm.tests.HomePageTest</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1580290718649</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td>1580290718649</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>setUp</b>  </a></td><td class="numi">1</td><td>1580290718649</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m4"><b>setUp</b>  </a></td><td class="numi">1</td><td>1580290718649</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m5"><b>setUp</b>  </a></td><td class="numi">1</td><td>1580290718649</td><td class="numi">0</td></tr>
+<tr><th colspan="4"> InstantHome Regression suite  &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="9">com.qa.ihm.tests.HomePageTest</td><td><a href="#m6"><b>setUp</b>  </a></td><td class="numi">3</td><td>1580290762593</td><td class="numi">17</td></tr><tr class="skippedodd"><td><a href="#m7"><b>TearDown</b>  </a></td><td class="numi">4</td><td>1580290762592</td><td class="numi">20</td></tr><tr class="skippedodd"><td><a href="#m8"><b>setUp</b>  </a></td><td class="numi">3</td><td>1580290762593</td><td class="numi">17</td></tr><tr class="skippedodd"><td><a href="#m9"><b>TearDown</b>  </a></td><td class="numi">4</td><td>1580290762592</td><td class="numi">20</td></tr><tr class="skippedodd"><td><a href="#m10"><b>setUp</b>  </a></td><td class="numi">3</td><td>1580290762593</td><td class="numi">17</td></tr><tr class="skippedodd"><td><a href="#m11"><b>TearDown</b>  </a></td><td class="numi">4</td><td>1580290762592</td><td class="numi">20</td></tr><tr class="skippedodd"><td><a href="#m12"><b>setUp</b>  </a></td><td class="numi">3</td><td>1580290762593</td><td class="numi">17</td></tr><tr class="skippedodd"><td><a href="#m13"><b>TearDown</b>  </a></td><td class="numi">4</td><td>1580290762592</td><td class="numi">20</td></tr><tr class="skippedodd"><td><a href="#m14"><b>setUp</b>  </a></td><td class="numi">3</td><td>1580290762593</td><td class="numi">17</td></tr>
+<tr><th colspan="4"> InstantHome Regression suite  &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.qa.ihm.tests.HomePageTest</td><td><a href="#m15"><b>findrentbtnTest</b>  </a></td><td class="numi">1</td><td>1580290762588</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m16"><b>rebtbtnclickTest</b>  </a></td><td class="numi">1</td><td>1580290762594</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m17"><b>continuebtnclickTest</b>  </a></td><td class="numi">1</td><td>1580290762605</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m18"><b>selllinkTest</b>  </a></td><td class="numi">1</td><td>1580290762611</td><td class="numi">1</td></tr>
+<tr><th colspan="4"> InstantHome Regression suite  &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.ihm.tests.HomePageTest</td><td><a href="#m19"><b>findhomebtnTest</b>  </a></td><td class="numi">1</td><td>1580290648830</td><td class="numi">182</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.ihm.tests.LoginPageTest</td><td><a href="#m20"><b>verifyLoginlinkTest</b>  </a></td><td class="numi">1</td><td>1580290670027</td><td class="numi">102</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.ihm.tests.HomePageTest</td><td><a href="#m21"><b>homebtnclickTest</b>  </a></td><td class="numi">1</td><td>1580290685274</td><td class="numi">413</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.ihm.tests.LoginPageTest</td><td><a href="#m22"><b>ContinuewithPhnTest</b>  </a></td><td class="numi">1</td><td>1580290686569</td><td class="numi">191</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.ihm.tests.HomePageTest</td><td><a href="#m23"><b>findbuybtnTest</b>  </a></td><td class="numi">1</td><td>1580290701682</td><td class="numi">232</td></tr>
+<tr class="passedeven"><td rowspan="1">com.qa.ihm.tests.LoginPageTest</td><td><a href="#m24"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1580290702642</td><td class="numi">277</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.ihm.tests.HomePageTest</td><td><a href="#m25"><b>buybtnclickTest</b>  </a></td><td class="numi">1</td><td>1580290717416</td><td class="numi">349</td></tr>
+</table>
+<h1> InstantHome Regression suite </h1>
+<h2 id="m1">com.qa.ihm.tests.HomePageTest:setUp</h2>
+<div style="padding-left:3em">
+<p>chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BLUETIE-TESTER-&apos;, ip: &apos;10.1.2.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BLUETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3e694134910fd57b74af1e936f2158a8</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)
+<br/>at com.qa.ihm.base.Testbase.intilization(Testbase.java:57)
+<br/>at com.qa.ihm.tests.HomePageTest.setUp(HomePageTest.java:29)
+<br/>27 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.qa.ihm.tests.HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.qa.ihm.tests.HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.qa.ihm.tests.HomePageTest:TearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.qa.ihm.tests.HomePageTest:TearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.qa.ihm.tests.HomePageTest:TearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.qa.ihm.tests.HomePageTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.qa.ihm.tests.HomePageTest:TearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.qa.ihm.tests.HomePageTest:findrentbtnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.qa.ihm.tests.HomePageTest:selllinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.qa.ihm.tests.HomePageTest:rebtbtnclickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.qa.ihm.tests.HomePageTest:continuebtnclickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.qa.ihm.tests.HomePageTest:findhomebtnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.qa.ihm.tests.LoginPageTest:verifyLoginlinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.qa.ihm.tests.HomePageTest:buybtnclickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.qa.ihm.tests.HomePageTest:homebtnclickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.qa.ihm.tests.HomePageTest:findbuybtnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.qa.ihm.tests.LoginPageTest:ContinuewithPhnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.qa.ihm.tests.LoginPageTest:loginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Instant_Home_test_automation_suite">
+              <span class="suite-name border-skipped">Instant Home test automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Instant_Home_test_automation_suite">
+                    <span>C:\Automation\InstantHomeAutomationScript\src\main\resources\textng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Instant_Home_test_automation_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Instant_Home_test_automation_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Instant_Home_test_automation_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Instant_Home_test_automation_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Instant_Home_test_automation_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Instant_Home_test_automation_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,  4 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Instant_Home_test_automation_suite" class="hide-methods skipped suite-Instant_Home_test_automation_suite"> (hide)</a> <!-- hide-methods skipped suite-Instant_Home_test_automation_suite -->
+                      <a href="#" panel-name="suite-Instant_Home_test_automation_suite" class="show-methods skipped suite-Instant_Home_test_automation_suite"> (show)</a> <!-- show-methods skipped suite-Instant_Home_test_automation_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Instant_Home_test_automation_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="continuebtnclickTest">continuebtnclickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="findrentbtnTest">findrentbtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="rebtbtnclickTest">rebtbtnclickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="selllinkTest">selllinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Instant_Home_test_automation_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Instant_Home_test_automation_suite" class="hide-methods passed suite-Instant_Home_test_automation_suite"> (hide)</a> <!-- hide-methods passed suite-Instant_Home_test_automation_suite -->
+                      <a href="#" panel-name="suite-Instant_Home_test_automation_suite" class="show-methods passed suite-Instant_Home_test_automation_suite"> (show)</a> <!-- show-methods passed suite-Instant_Home_test_automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Instant_Home_test_automation_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.LoginPageTest" hash-for-method="ContinuewithPhnTest">ContinuewithPhnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="buybtnclickTest">buybtnclickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="findbuybtnTest">findbuybtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="findhomebtnTest">findhomebtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.HomePageTest" hash-for-method="homebtnclickTest">homebtnclickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instant_Home_test_automation_suite" title="com.qa.ihm.tests.LoginPageTest" hash-for-method="verifyLoginlinkTest">verifyLoginlinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Instant_Home_test_automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Instant_Home_test_automation_suite" class="panel Instant_Home_test_automation_suite">
+          <div class="suite-Instant_Home_test_automation_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.ihm.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="continuebtnclickTest">
+                  </a> <!-- continuebtnclickTest -->
+                  <span class="method-name">continuebtnclickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findrentbtnTest">
+                  </a> <!-- findrentbtnTest -->
+                  <span class="method-name">findrentbtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rebtbtnclickTest">
+                  </a> <!-- rebtbtnclickTest -->
+                  <span class="method-name">rebtbtnclickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selllinkTest">
+                  </a> <!-- selllinkTest -->
+                  <span class="method-name">selllinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Instant_Home_test_automation_suite-class-skipped -->
+          <div class="suite-Instant_Home_test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ihm.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContinuewithPhnTest">
+                  </a> <!-- ContinuewithPhnTest -->
+                  <span class="method-name">ContinuewithPhnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginlinkTest">
+                  </a> <!-- verifyLoginlinkTest -->
+                  <span class="method-name">verifyLoginlinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Instant_Home_test_automation_suite-class-passed -->
+          <div class="suite-Instant_Home_test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ihm.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buybtnclickTest">
+                  </a> <!-- buybtnclickTest -->
+                  <span class="method-name">buybtnclickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findbuybtnTest">
+                  </a> <!-- findbuybtnTest -->
+                  <span class="method-name">findbuybtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findhomebtnTest">
+                  </a> <!-- findhomebtnTest -->
+                  <span class="method-name">findhomebtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homebtnclickTest">
+                  </a> <!-- homebtnclickTest -->
+                  <span class="method-name">homebtnclickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Instant_Home_test_automation_suite-class-passed -->
+        </div> <!-- panel Instant_Home_test_automation_suite -->
+        <div panel-name="test-xml-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\InstantHomeAutomationScript\src\main\resources\textng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Instant Home test automation suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ihm.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot; InstantHome Regression suite &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ihm.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.ihm.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  InstantHome Regression suite  --&gt;
+&lt;/suite&gt; &lt;!-- Instant Home test automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Instant Home test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name"> InstantHome Regression suite  (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Instant Home test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Instant Home test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Instant_Home_test_automation_suite');
+function tableData_Instant_Home_test_automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'homebtnclickTest')
+data.setCell(0, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(0, 3, 413);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'buybtnclickTest')
+data.setCell(1, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(1, 3, 349);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.qa.ihm.tests.LoginPageTest')
+data.setCell(2, 3, 277);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'findbuybtnTest')
+data.setCell(3, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(3, 3, 232);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ContinuewithPhnTest')
+data.setCell(4, 2, 'com.qa.ihm.tests.LoginPageTest')
+data.setCell(4, 3, 191);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findhomebtnTest')
+data.setCell(5, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(5, 3, 182);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginlinkTest')
+data.setCell(6, 2, 'com.qa.ihm.tests.LoginPageTest')
+data.setCell(6, 3, 102);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'findrentbtnTest')
+data.setCell(7, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'rebtbtnclickTest')
+data.setCell(8, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selllinkTest')
+data.setCell(9, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'continuebtnclickTest')
+data.setCell(10, 2, 'com.qa.ihm.tests.HomePageTest')
+data.setCell(10, 3, 1);
+window.suiteTableData['Instant_Home_test_automation_suite']= { tableData: data, tableDiv: 'times-div-Instant_Home_test_automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Instant_Home_test_automation_suite">
+              </div> <!-- times-div-Instant_Home_test_automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Instant Home test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Instant_Home_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findhomebtnTest</span>
+                <span class="method-start">17192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">17375 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18138 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginlinkTest</span>
+                <span class="method-start">38389 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homebtnclickTest</span>
+                <span class="method-start">53636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">54050 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ContinuewithPhnTest</span>
+                <span class="method-start">54931 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findbuybtnTest</span>
+                <span class="method-start">70044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">70277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">71004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">71282 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ihm.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">71283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buybtnclickTest</span>
+                <span class="method-start">85778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">86128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">87011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findrentbtnTest</span>
+                <span class="method-start">130950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rebtbtnclickTest</span>
+                <span class="method-start">130956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continuebtnclickTest</span>
+                <span class="method-start">130967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selllinkTest</span>
+                <span class="method-start">130973 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

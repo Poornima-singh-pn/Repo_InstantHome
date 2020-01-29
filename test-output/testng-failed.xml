@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Instant Home test automation suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.ihm.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name=" InstantHome Regression suite (failed)" parallel="none">
+    <classes>
+      <class name="com.qa.ihm.tests.LoginPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.ihm.tests.LoginPageTest -->
+      <class name="com.qa.ihm.tests.HomePageTest">
+        <methods>
+          <include name="continuebtnclickTest"/>
+          <include name="findrentbtnTest"/>
+          <include name="rebtbtnclickTest"/>
+          <include name="setUp"/>
+          <include name="selllinkTest"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.ihm.tests.HomePageTest -->
+    </classes>
+  </test> <!--  InstantHome Regression suite (failed) -->
+</suite> <!-- Failed suite [Instant Home test automation suite] -->
